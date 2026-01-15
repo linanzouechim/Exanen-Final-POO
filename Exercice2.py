@@ -1,9 +1,26 @@
 #EXERCICE 2
-from PyQt6.QtWidgets import QApplication, QWidget, QGridLayout, QFrame, QLabel, QLineEdit, QPushButton
+from PyQt6.QtWidgets import QApplication, QWidget, QGridLayout, QFrame, QLabel, QLineEdit, QPushButton,QMessageBox
+
+
+def popup_warning(titre, message):
+    QMessageBox.warning(f, titre, message)
 
 # Fonction qui calcule le double
 def double():
-    pass
+
+        try:
+            n = int(textE1.text())
+            d = n * 2
+            textE2.setText(str(d))
+
+        except ValueError:
+            print("La valeur n'est pas valide")
+
+            popup_warning("Attention", "Veuillez entrer un entier!")
+
+
+
+
 
 # Création de l'application
 app = QApplication([])

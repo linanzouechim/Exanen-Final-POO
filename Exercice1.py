@@ -2,6 +2,7 @@ class Triangle() :
     def __init__(self,n):
         self.n = n
     def construire_Triangle(self):
+
         return ('*')
 
 
@@ -9,11 +10,12 @@ class Triangle() :
 
 
 class Affichage():
-    def __init__(self,Tri ):
-        self.Tri = Tri
+    def __init__(self,aff):
+        self.aff = aff
+
 
     def Affichage_Triangle(self):
-        print(Tri)
+        print(aff)
 
 
 
@@ -27,7 +29,7 @@ while yes ==1:
         print("Veuillez saisir un nombre valide")
 
 for i in range(1,n+1):
-    t = Triangle(i)
+    t = Triangle(i,n)
     aff = t.construire_Triangle()
     a = Affichage(aff)
     a.Affichage_Triangle()

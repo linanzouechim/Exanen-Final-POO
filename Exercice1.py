@@ -1,3 +1,4 @@
+#classe Triangle
 class Triangle() :
     def __init__(self,i,n):
         self.i = i
@@ -14,17 +15,13 @@ class Triangle() :
         return (ligneI)
 
 
-    pass
-
-
+#Classe Affichage
 class Affichage():
     def __init__(self,aff):
         self.aff = aff
 
-
     def Affichage_Triangle(self):
         print(aff)
-
 
 
 

@@ -32,9 +32,6 @@ def double():
             popup_warning("Attention", "Veuillez entrer un entier!")
 
 
-
-
-
 # Création de l'application
 app = QApplication([])
 

@@ -15,7 +15,14 @@ Exercice 1
 
 <img width="937" height="430" alt="image" src="https://github.com/user-attachments/assets/53583638-21ea-4223-996e-263c6d87ec95" />
 
+
+<img width="938" height="646" alt="image" src="https://github.com/user-attachments/assets/f4691555-1b49-456b-9f73-3d51956386ed" />
+
+
 Exercice 2
+
+En utilisant la bibliothèque vu en classe, il est question d'écrire un programme permettant d'afficher à l'utilisateur une boite de dialogue lui demandant de saisir un nombre entier et de lui renvoyer son double:
+Il faut également ajouter deux options, une pour sauvegarder le résultat et une pour charger le résultat. Le fichier dans lequel les résultats seront conservés se nommera resultats.txt.
 
 NB: Il faut noter que pour l'exercice 2 que après avoir 'Valider l'opération', il faut au préalable sauvegarder le resultat avant de pouvoir le charger pour avoir le résultat actuel.
 

@@ -3,8 +3,15 @@ class Triangle() :
         self.i = i
         self.n = n
     def construire_Triangle(self):
-
-        return ('*')
+        total_Espace =" "
+        etoiles = ""
+        total_Espace = ""
+        for y in range(1, n-i+1):
+            total_Espace += " "
+        for x in range(0, i):
+            etoiles += "*"
+        ligneI = total_Espace + etoiles + "  " + etoiles
+        return (ligneI)
 
 
     pass

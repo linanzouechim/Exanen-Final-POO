@@ -1,5 +1,6 @@
 class Triangle() :
-    def __init__(self,n):
+    def __init__(self,i,n):
+        self.i = i
         self.n = n
     def construire_Triangle(self):
 
